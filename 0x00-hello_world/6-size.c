@@ -10,7 +10,11 @@ int main(void)
 	char letter;
 	long int c;
 	long long int d;
-	printf("Size of a char: %ld byte(s) \n Size of an int: %ld byte(s) \n Size of a long int: %ld byte(s) \n Size of a long long int: %ld byte(s) \n Size of a float: %ld byte(s)", sizeof(letter), sizeof(num), sizeof(c),sizeof(d), sizeof(decimal));
-	return 0;
+	printf("Size of a char: %ld byte(s) \n", sizeof(letter));
+	printf("Size of a long int: %ld byte(s) \n", sizeof(c));
+	printf("Size of a long long int: %ld byte(s) \n", sizeof(d));
+	printf("Size of a float: %ld byte(s) \n", sizeof(decimal));
+	printf("Size of a integer: %ld byte(s) \n", sizeof(num));
+	return (0);
 }
 
