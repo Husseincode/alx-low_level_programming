@@ -8,4 +8,6 @@ int main(void)
 	int num;
 	float decimal;
 	char letter;
-	printf("The size of an integer is %d \n The size of float is %f \n The size of char is %s", num, decimal, letter)
+	printf("The size of an integer is %ld \n The size of float is %ld \n The size of char is %ld", sizeof(num), sizeof(decimal), sizeof(letter));
+	return 0;
+}
