@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * Main - A program that print
+ * Main - A pr
  * Return: Always 0 (success)
  */
 int main(void)
