@@ -13,7 +13,7 @@ int main(void)
 	for (counter = 0; counter < 26; counter++)
 	{
 		putchar(alphabets[counter]);
-		putchar('\n');
 	}
+	putchar('\n');
 	return (0);
 }
