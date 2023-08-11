@@ -6,7 +6,7 @@
 
 int main(void)
 {
-	char alphabets[29] = "abcdefghiklmnopqrstuvwxyz";
+	char alphabets[26] = "abcdefghiklmnopqrstuvwxyz";
 
 	int counter;
 
