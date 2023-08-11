@@ -6,11 +6,11 @@
 
 int main(void)
 {
-	char alphabets[26] = "abcdefghiklmnopqrstuvwxyz";
+	char alphabets[26] = "abcdefghijklmnopqrstuvwxyz";
 
 	int counter;
 
-	for (counter = 0; counter < 26; counter++)
+	for (counter i= 0; counter < 26; counter++)
 	{
 		putchar(alphabets[counter]);
 	}
