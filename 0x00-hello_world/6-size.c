@@ -1,20 +1,20 @@
 #include <stdio.h>
 /**
- * Main - A pr
+ * main - A program that writes sizes of different output
  * Return: Always 0 (success)
  */
 int main(void)
 {
-	int num;
-	float decimal;
-	char letter;
-	long int c;
-	long long int d;
-	printf("Size of a char: %ld byte(s) \n", sizeof(letter));
-	printf("Size of a long int: %ld byte(s) \n", sizeof(c));
-	printf("Size of a long long int: %ld byte(s) \n", sizeof(d));
-	printf("Size of a float: %ld byte(s) \n", sizeof(decimal));
-	printf("Size of a integer: %ld byte(s) \n", sizeof(num));
+	int a;
+	float b;
+	char c;
+	long int d;
+	long long int e;
+	printf("Size of a char: %lu byte(s) \n", sizeof(c));
+	printf("Size of a long int: %lu byte(s) \n", sizeof(d));
+	printf("Size of a long long int: %lu byte(s) \n", sizeof(e));
+	printf("Size of a float: %lu byte(s) \n", sizeof(b));
+	printf("Size of a integer: %lu byte(s) \n", sizeof(a));
 	return (0);
 }
 
