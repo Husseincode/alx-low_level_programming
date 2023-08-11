@@ -15,11 +15,10 @@ int main(void)
 	}
 
 	char upperA[26] = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-	int b;
 
-	for (b = 0; b < 26; b++)
+	for (i = 0; i < 26; i++)
 	{
-		putchar(upperA[b]);
+		putchar(upperA[i]);
 	}
 	putchar('\n');
 	return (0);
