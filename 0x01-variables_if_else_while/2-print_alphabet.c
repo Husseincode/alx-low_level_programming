@@ -10,7 +10,7 @@ int main(void)
 
 	int counter;
 
-	for (counter i= 0; counter < 26; counter++)
+	for (counter = 0; counter < 26; counter++)
 	{
 		putchar(alphabets[counter]);
 	}
