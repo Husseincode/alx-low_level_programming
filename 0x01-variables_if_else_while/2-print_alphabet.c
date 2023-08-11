@@ -7,12 +7,13 @@
 int main(void)
 {
 	char alphabets[29] = "abcdefghiklmnopqrstuvwxyz";
+
 	int counter;
 
 	for (counter = 0; counter < 26; counter++)
 	{
 		putchar(alphabets[counter]);
+		putchar('\n');
 	}
-	putchar("\n");
 	return (0);
 }
