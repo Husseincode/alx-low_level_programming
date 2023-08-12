@@ -7,12 +7,11 @@
 
 int main(void)
 {
-	char* revalp[] = "zyxwvutsrqponmlkjihgfedcba";
-	int i;
+	char c;
 
-	for (i = 0; i < 26; i++)
+	for (c = 'z'; c >= 'a'; --c)
 	{
-		putchar(revalp[i]);
+		putchar(c);
 	}
 	putchar('\n');
 	return (0);
