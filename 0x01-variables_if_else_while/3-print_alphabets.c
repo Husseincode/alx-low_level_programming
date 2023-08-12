@@ -6,19 +6,12 @@
 
 int main(void)
 {
-	char alphabets[26] = "abcdefghijklmnopqrstuvwxyz";
+	char alphabets[52] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
 	int i;
 
-	for (i = 0; i < 26; i++)
+	for (i = 0; i < 52; i++)
 	{
 		putchar(alphabets[i]);
-	}
-
-	char upperA[26] = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-
-	for (i = 0; i < 26; i++)
-	{
-		putchar(upperA[i]);
 	}
 	putchar('\n');
 	return (0);
