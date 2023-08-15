@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * main - A function that prints the alphabet, in lowercase, followed by a new line.
- * Return: 0 (Success)
+ * print_alphabet - A function that prints the alphabet in lowercase
+ * Return: void
  */
 
 void print_alphabet(void)
@@ -11,7 +11,7 @@ void print_alphabet(void)
 
 	for (alp = 'a'; alp <= 'z'; alp++)
 	{
-		printf(alp);
+		_putchar(alp);
+		_putchar('\n');
 	}
-	return (0);
 }
