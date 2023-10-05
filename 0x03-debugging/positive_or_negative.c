@@ -1,19 +1,23 @@
 #include "main.h"
-/* more headers goes there */
+/**
+ * main - A program that shows the conditional statement between numbers
+ * Return: (0) success
+ */
 
-/* betty style doc for function main goes there */
 void positive_or_negative(int i)
 {
 	if (i > 0)
 	{
-		printf("The number %d is a positive number\n", i);
+		printf("%d is positive\n", i);
 	}
+
 	else if (i == 0)
 	{
-		printf("The number %d is equal to zero\n", i);
+		printf("%d is zero\n", i);
 	}
+
 	else if (i < 0)
 	{
-		printf("The number %d is a negative number\n", i);
+		printf("%d is negative\n", i);
 	}
 }
