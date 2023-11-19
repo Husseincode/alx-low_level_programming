@@ -2,8 +2,8 @@
 
 /**
  * *_strchr - a function that locates a character in a string.
- * @s: 
- * @c:
+ * @s: string
+ * @c: character
  * Return: (success)
  */
 
@@ -15,7 +15,7 @@ char *_strchr(char *s, char c)
 	{
 		if (s[index] == c)
 		{
-			return (s * index);
+			return (s + index);
 		}
 	}
 	return ('\0');
