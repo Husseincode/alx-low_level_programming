@@ -6,9 +6,7 @@
  * @key: The key to add - cannot be an empty string.
  * @value: The value associated with key.
  * Return: Upon failure - 0.
- * Otherwise - 1.
  */
-
 int hash_table_set(hash_table_t *ht, const char *key, const char *value)
 {
 	hash_node_t *new;
@@ -16,15 +14,11 @@ int hash_table_set(hash_table_t *ht, const char *key, const char *value)
 	unsigned long int index, a;
 
 	if (ht == NULL || key == NULL || *key == '\0' || value == NULL)
-	{
 		return (0);
-	}
 
 	value_copy = strdup(value);
 	if (value_copy == NULL)
-	{
 		return (0);
-	}
 
 	index = key_index((const unsigned char *)key, ht->size);
 	for (a = index; ht->array[a]; a++)
@@ -52,6 +46,5 @@ int hash_table_set(hash_table_t *ht, const char *key, const char *value)
 	new->value = value_copy;
 	new->next = ht->array[index];
 	ht->array[index] = new;
-
 	return (1);
 }
